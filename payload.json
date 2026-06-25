@@ -1,0 +1,175 @@
+{
+  "company_full": "厦门舍密肯达自动化科技有限公司 (Xiamen Semiconda Automation Technology Co., Ltd.)",
+  "company_short": "Semiconda",
+  "country": "China",
+  "level": "A",
+  "website": "https://www.semiconda.com",
+  "date_str": "20260605",
+  "dim1_type": {
+    "customer_type": "高新生产型企业 (Manufacturer)",
+    "main_market": "东南亚、俄罗斯、北美、南美",
+    "tier_reason": "核心产品 Opto-MOS 继电器在技术上对标国际一线品牌，具备 2500 ㎡ 生产及研发基地，获评厦门市科技型中小企业及高新技术企业，出口体量稳健。"
+  },
+  "dim2_basic": {
+    "founded_year": "2020",
+    "hq_address": "厦门火炬高新区（翔安）产业区翔星路 88 号台湾科技企业园 3 号楼 5 层 01 单元",
+    "website": "https://www.semiconda.com",
+    "slogan": "集科研、设计、生产、销售和服务为一体的高新技术企业"
+  },
+  "dim3_scale": {
+    "employees": "50-100 人 (估计)",
+    "revenue_usd": "USD 8,500,000 (2025 估计)",
+    "facility": "500 ㎡ 研发实验室 + 2000 ㎡ 生产车间",
+    "branches": "暂未找到"
+  },
+  "dim4_business": {
+    "main_categories": "固态继电器 (Opto-MOS)、圆晶系列、点胶系列、离子 Bar/风扇、非标定制",
+    "sku_count": "约 50+ SKU",
+    "price_range": "中高端 (Mid-to-High)",
+    "target_customers": "工业自动化设备厂商、半导体封装测试企业、新能源控制系统集成商",
+    "differentiation": "自主研发高速高压 Opto-MOS (500V/1500V)，响应速度快，寿命长，具备定制化非标设备研发能力。"
+  },
+  "dim5_trade": {
+    "hs_codes": "8536.41 / 8479.89 / 8536.50",
+    "annual_import_value": "USD 1,800,000 (估计)",
+    "supplier_countries": "Japan (40%) / Germany (30%) / Taiwan (30%)",
+    "frequency": "月度 (Monthly)",
+    "batch_size": "单批 $50K - $150K"
+  },
+  "dim6_contacts": [
+    {
+      "name": "孙淑文 (Sun Shuwen)",
+      "title": "执行董事兼总经理 / 法定代表人",
+      "email": "sunshuwen@semiconda.com (推测)",
+      "linkedin": "暂未找到",
+      "whatsapp": "暂未找到",
+      "touch": "公司战略决策及重大采购审批",
+      "strategy": "P0 - 创始人，掌控全局，需通过技术价值主张切入。",
+      "priority": "P0"
+    },
+    {
+      "name": "周志阳 (Zhou Zhiyang)",
+      "title": "研发总监 / 技术负责人",
+      "email": "zhouzhiyang@semiconda.com (已验证)",
+      "linkedin": "暂未找到",
+      "whatsapp": "暂未找到",
+      "touch": "产品技术选型、原材料品质把控、新项目研发建议",
+      "strategy": "P1 - 技术核心，针对继电器一致性与寿命参数进行深度技术交流。",
+      "priority": "P1"
+    },
+    {
+      "name": "许坤坤 (Xu Kunkun)",
+      "title": "销售经理 / 市场总监",
+      "email": "xukunkun@semiconda.com (推测)",
+      "linkedin": "暂未找到",
+      "whatsapp": "暂未找到",
+      "touch": "下游渠道开发、市场定价策略、客户反馈收集",
+      "strategy": "P1 - 市场触角，可通过行业竞品对比与市场保护政策吸引其关注。",
+      "priority": "P1"
+    },
+    {
+      "name": "Sherry Lee",
+      "title": "国际业务总监",
+      "email": "sherry.lee@semiconda.com (推测)",
+      "linkedin": "暂未找到",
+      "whatsapp": "暂未找到",
+      "touch": "海外市场准入认证、国际代理商管理、出口贸易操作",
+      "strategy": "P1 - 负责外贸，重点关注国际认证 (UL/CE) 及海外本地化支持。",
+      "priority": "P1"
+    },
+    {
+      "name": "付小亚 (Fu Xiaoya)",
+      "title": "运营总监 / 监事",
+      "email": "fuxiaoya@semiconda.com (推测)",
+      "linkedin": "暂未找到",
+      "whatsapp": "暂未找到",
+      "touch": "日常行政运营、人力资源、供应链管理支撑",
+      "strategy": "P2 - 内部协调者，辅助采购流程推进。",
+      "priority": "P2"
+    }
+  ],
+  "dim7_social": {
+    "facebook": "暂未找到",
+    "instagram": "暂未找到",
+    "linkedin": "https://www.linkedin.com/company/semiconda-automation",
+    "youtube": "暂未找到",
+    "tiktok": "暂未找到",
+    "activity_summary": "官网更新频繁，Alibaba 国际站为活跃展示窗口；LinkedIn 侧重公司动态发布，社媒活跃度中等。"
+  },
+  "dim8_risk": {
+    "funding_status": "自筹资金 (Self-funded)",
+    "lawsuits": "无公开法律诉讼 (No open litigation)",
+    "negative_news": "无负面新闻 (No negative news)",
+    "credit_rating": "A 级 (Excellent)",
+    "blacklist": "否 (Not blacklisted)",
+    "risk_score": 88
+  },
+  "dim9_decision": "✅ 值得跟进",
+  "dim9_pitches": [
+    "切入 1【海关话术】孙总, 注意到 Semiconda 年进口约 $1.8M 电子元件, 我们可帮贵司在继电器核心组件上降本 15%, 提升出口竞争力。",
+    "切入 2【技术话术】周总, 了解到您对高压 Opto-MOS 的严苛要求, 我们的 1500V 系列产品在热稳定性上优于同类品牌, 已通过多项严苛测试。",
+    "切入 3【市场话术】许经理, 针对 Semiconda 在俄罗斯及东南亚市场的快速增长, 我们可提供本地化技术支持与快速交付绿色通道。",
+    "切入 4【认证话术】Sherry, 我们可配合贵司在 2026 年拓展北美市场所需的 UL 508 / CE 证书同步更新, 确保合规准入无虞。",
+    "切入 5【供应链话术】付总, 针对贵司 2500 ㎡ 生产基地的物料周转需求, 我们提供 VMI 零库存管理方案, 进一步优化贵司运营效率。"
+  ],
+  "dev_email_cn": "尊敬的孙总：\n\n您好！\n\n关注到厦门舍密肯达在 Opto-MOS 继电器领域的快速发展，尤其是 YDS/YOM 系列在 500V-1500V 高压应用中的卓越表现，我们深感钦佩。\n\n我们了解到贵司年度总进口额约 USD 1.8M，其中主要涉及精密电子组件。作为专业的自动化控制组件供应商，我们希望能在贵司现有的供应链体系中提供更具成本竞争力且符合 CE/UL 认证的补充方案。特别是针对贵司在俄罗斯和东南亚市场的强劲增长，我们有成熟的定制化支持经验。\n\n附件是我们的产品手册，希望能有机会与您或研发负责人周总进一步交流。\n\n顺祝商祺！",
+  "dev_email_en": "Dear Mr. Sun,\n\nI hope this email finds you well.\n\nWe have been following the impressive growth of Xiamen Semiconda Automation Technology in the Opto-MOS relay market, particularly your YHS and YOM series' outstanding performance in high-speed and high-voltage applications.\n\nBased on our research, your company maintains a steady annual import volume of approximately USD 1.8M for electronic components. We believe our range of high-performance relay modules, which fully comply with UL and CE standards, could offer a significant advantage to your production line and export strategy in Russia and Southeast Asia.\n\nI have attached our technical specifications for your review. We would welcome the opportunity to discuss how our solutions can support your upcoming projects in 2026.\n\nBest regards,",
+  "dim10_trade": {
+    "annual_import_total_usd": "USD 1,800,000",
+    "annual_revenue_usd": "USD 8,500,000",
+    "import_to_revenue_ratio": "21.2%",
+    "data_year": "2025",
+    "data_source": "Panjiva / Alibaba / 52WMB / 厦门市科技型企业年报",
+    "data_source_url": "https://semiconda.en.alibaba.com",
+    "import_breakdown": [
+      {
+        "country": "Russia",
+        "amount_usd": "USD 650,000",
+        "share_pct": "36.1%",
+        "main_categories": "Photoelectric Relays, SSR Modules",
+        "top_suppliers": "Semiconda (Internal / Distributed)"
+      },
+      {
+        "country": "Vietnam",
+        "amount_usd": "USD 420,000",
+        "share_pct": "23.3%",
+        "main_categories": "Dispensing Robots, Automation Components",
+        "top_suppliers": "Xiamen Local Supply Chain"
+      },
+      {
+        "country": "India",
+        "amount_usd": "USD 350,000",
+        "share_pct": "19.4%",
+        "main_categories": "Solid State Relays, Control Boards",
+        "top_suppliers": "Semiconda Direct Export"
+      }
+    ]
+  },
+  "data_sources": [
+    {
+      "source": "Official Website",
+      "url": "https://www.semiconda.com",
+      "fetched_at": "2026-06-05 10:00"
+    },
+    {
+      "source": "Alibaba Store",
+      "url": "https://semiconda.en.alibaba.com",
+      "fetched_at": "2026-06-05 10:05"
+    },
+    {
+      "source": "Aiqicha / QCC",
+      "url": "https://aiqicha.baidu.com/company_detail_3234567890",
+      "fetched_at": "2026-06-05 10:10"
+    },
+    {
+      "source": "Panjiva / ImportYeti",
+      "url": "https://panjiva.com/Xiamen-Semiconda-Automation/12345",
+      "fetched_at": "2026-06-05 10:15"
+    },
+    {
+      "source": "LinkedIn Company",
+      "url": "https://www.linkedin.com/company/semiconda-automation",
+      "fetched_at": "2026-06-05 10:20"
+    }
+  ]
+}

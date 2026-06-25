@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semiconda SSR 国际站入驻解决方案</title>
+    <style>
+        :root {
+            --primary: #0046ad;
+            --secondary: #00b4d8;
+            --dark: #1a1a1a;
+            --light: #f8f9fa;
+            --text-main: #333;
+            --text-muted: #666;
+            --white: #ffffff;
+            --accent: #ff9f1c;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--dark) 0%, var(--primary) 100%);
+            color: var(--white);
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 5px solid var(--secondary);
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        section {
+            margin-bottom: 60px;
+            background: var(--white);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            border-left: 5px solid var(--secondary);
+            padding-left: 15px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            padding: 25px;
+            border-radius: 8px;
+            background: #fafafa;
+            border: 1px solid #eee;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .highlight-box {
+            background: var(--primary);
+            color: var(--white);
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .highlight-value {
+            font-size: 2.5rem;
+            font-weight: 800;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.8;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        th {
+            background: #f4f4f4;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .roi-summary {
+            background: #f0f7ff;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border: 1px dashed var(--primary);
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 12px;
+            background: var(--secondary);
+            color: white;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+        }
+
+        .vision-img {
+            width: 100%;
+            height: 200px;
+            background: #333;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 20px;
+            background-image: linear-gradient(to right, #2c3e50, #4ca1af);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Dark Mode Support (Professional Choice) */
+        @media (prefers-color-scheme: dark) {
+            body { background-color: #121212; color: #e0e0e0; }
+            section { background: #1e1e1e; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+            .card { background: #252525; border-color: #333; }
+            th { background: #2a2a2a; color: var(--secondary); }
+            td { border-bottom-color: #333; }
+            .roi-summary { background: #1a2a3a; border-color: var(--secondary); }
+            .text-main { color: #eee; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>厦门舍密肯达 (Semiconda)</h1>
+            <p>固态继电器 (SSR) 国际站入驻战略解决方案</p>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <!-- Section 1 -->
+        <section id="market">
+            <h2>01 行业红利图谱 (2025-2030)</h2>
+            <div class="grid">
+                <div class="highlight-box">
+                    <span class="stat-label">预计年复合增长率</span>
+                    <span class="highlight-value">6.3% - 8.4%</span>
+                    <p>CAGR (2025-2030)</p>
+                </div>
+                <div class="card">
+                    <span class="tag">市场规模</span>
+                    <h3>$2.3B - $4.9B</h3>
+                    <p>预计到2030年，全球固态继电器市场规模将达到峰值，工业自动化与新能源需求是核心驱动力。</p>
+                </div>
+                <div class="card">
+                    <span class="tag">热门区域</span>
+                    <h3>欧美市场高增</h3>
+                    <p>北美与欧洲对 <strong>PhotoDMOS</strong> 继电器及高可靠性工业级 SSR 需求旺盛，溢价空间大。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section id="competitor">
+            <h2>02 竞品深拆 (Shenler & Maxwell)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>维度</th>
+                        <th>Shenler (申乐)</th>
+                        <th>Maxwell (美克斯)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>平台年限</td>
+                        <td>11年 (老牌霸主)</td>
+                        <td>5年 (中坚力量)</td>
+                    </tr>
+                    <tr>
+                        <td>会员类型</td>
+                        <td>Verified Supplier (金品诚企)</td>
+                        <td>Gold Plus (高级金铺)</td>
+                    </tr>
+                    <tr>
+                        <td>产品策略</td>
+                        <td><strong>Branding:</strong> 侧重品牌化，强调品质与体系</td>
+                        <td><strong>Mass Listing:</strong> 侧重铺货与多SKU覆盖</td>
+                    </tr>
+                    <tr>
+                        <td>核心优势</td>
+                        <td>完善的工业配套方案</td>
+                        <td>极具竞争力的响应速度</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Section 3 -->
+        <section id="roi">
+            <h2>03 入驻 ROI 模型 (2026版)</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>投入成本 (Est. Annual)</h3>
+                    <ul>
+                        <li><strong>出口通基础服务费:</strong> ¥55,800</li>
+                        <li><strong>直通车 (P4P) 推广:</strong> ¥30,000</li>
+                        <li><strong>第三方代运营/人工:</strong> ¥50,000</li>
+                    </ul>
+                    <hr style="margin: 15px 0; border: 0; border-top: 1px solid #ddd;">
+                    <p><strong>总预算投入: ¥135,800</strong></p>
+                </div>
+                <div class="card">
+                    <h3>产出预估 (Monthly)</h3>
+                    <ul>
+                        <li><strong>月均询盘数:</strong> 40 - 60 条</li>
+                        <li><strong>询盘转化率:</strong> 2% - 3%</li>
+                        <li><strong>预计成交客户:</strong> 1 - 2 个/月</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="roi-summary">
+                <h3>ROI 测算逻辑</h3>
+                <p>基于 SSR 行业平均订单价值 (AOV) ¥25,000 测算，年营收预期 ¥300,000 - ¥450,000。首年盈亏平衡点约在第 8-10 个月，次年依托复购实现 1:3 以上的高回报率。</p>
+            </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section id="vision">
+            <h2>04 视觉与品牌升级 (Vision 2026)</h2>
+            <div class="vision-img">
+                [ Semiconda Vision 2026: European Minimalist Design Concept ]
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>欧式极简风格</h3>
+                    <p>摒弃传统工业品的陈冗堆叠，采用大色块、高对比度字体与高清产品建模，传达“精密、稳定、高端”的品牌基因。</p>
+                </div>
+                <div class="card">
+                    <h3>PhotoDMOS 专业化</h3>
+                    <p>建议将 Semiconda 品牌核心定位在 PhotoDMOS 技术专家，通过垂直细分市场的专业度建立竞争壁垒，获取溢价。</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Semiconda International Strategy | 厦门舍密肯达战略部</p>
+    </footer>
+
+</body>
+</html>
