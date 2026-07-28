@@ -1,63 +1,129 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get a Free Quote | Custom CNC & 3D Printing | Xiamen Mingxin</title>
+    <meta name="description" content="Contact Xiamen Mingxin Precision for a free manufacturing quote. Expert CNC machining, 3D printing, and sheet metal fabrication services. Response within 24 hours.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-800 flex items-center">
+                <img src="https://sc02.alicdn.com/kf/Ha29876c91b3b4f6eb1b01c27b8e7c50aZ.jpg" alt="Mingxin" class="h-9 w-auto mr-2 rounded"> MINGXIN PRECISION
+            </div>
             <div class="hidden md:flex space-x-8 text-sm font-medium">
                 <a href="index.html" class="hover:text-blue-600 transition">Home</a>
                 <a href="products.html" class="hover:text-blue-600 transition">Products</a>
                 <a href="about.html" class="hover:text-blue-600 transition">About Us</a>
                 <a href="contact.html" class="text-blue-600">Contact</a>
             </div>
+            <a href="contact.html" class="bg-blue-600 text-white px-5 py-2 rounded text-sm hover:bg-blue-700 transition">Get a Quote</a>
         </nav>
     </header>
 
-
+    <!-- Contact Section -->
     <section class="py-20">
         <div class="container mx-auto px-6">
-            <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+            <div class="text-center mb-16">
+                <h1 class="text-4xl font-bold mb-4">Request a Manufacturing Quote</h1>
+                <p class="text-gray-600">Upload your CAD files and receive a detailed DFM analysis and quote within 24 hours.</p>
+            </div>
+
+            <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12">
                 <!-- Contact Info -->
-                <div class="md:w-1/2 bg-blue-800 p-12 text-white">
-                    <h2 class="text-3xl font-bold mb-8">Contact Information</h2>
-                    <p class="mb-10 text-blue-200">Send us your drawings (STEP, IGS, PDF) for a free DFM feedback and quote within 24 hours.</p>
-                    <div class="space-y-6">
-                        <div class="flex items-start">
-                            <i class="fas fa-envelope mt-1 mr-4 text-blue-300"></i>
-                            <div>
-                                <p class="font-bold">Email</p>
-                                <a href="mailto:iris@mingxinltd.com" class="text-blue-100 hover:text-white transition">iris@mingxinltd.com</a>
+                <div class="lg:col-span-1 space-y-8">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold mb-6">Factory Location</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <i class="fas fa-map-marker-alt mt-1 mr-4 text-blue-600"></i>
+                                <p class="text-gray-600">Tong An District, Xiamen, Fujian Province, China</p>
                             </div>
-                        </div>
-                        <div class="flex items-start">
-                            <i class="fas fa-map-marker-alt mt-1 mr-4 text-blue-300"></i>
-                            <div>
-                                <p class="font-bold">Address</p>
-                                <p class="text-blue-100">201, No 36 Building, SiMing Zone, Tong An District, Xiamen, PR China</p>
+                            <div class="flex items-center">
+                                <i class="fas fa-envelope mr-4 text-blue-600"></i>
+                                <a href="mailto:iris@mingxinltd.com" class="text-blue-600 hover:underline">iris@mingxinltd.com</a>
                             </div>
                         </div>
                     </div>
+
+                    <div class="bg-blue-800 p-8 rounded-2xl shadow-lg text-white">
+                        <h3 class="text-xl font-bold mb-4 text-blue-100">Why choose Mingxin?</h3>
+                        <ul class="space-y-3 text-sm">
+                            <li class="flex items-center"><i class="fas fa-check-circle mr-2 text-blue-300"></i> ISO 9001:2015 Certified</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle mr-2 text-blue-300"></i> SGS Verified Factory</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle mr-2 text-blue-300"></i> +/- 0.01mm Precision</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle mr-2 text-blue-300"></i> Global Shipping Experts</li>
+                        </ul>
+                    </div>
                 </div>
 
+                <!-- Contact Form (Formspree) -->
+                <div class="lg:col-span-2">
+                    <div class="bg-white p-10 rounded-2xl shadow-xl border border-gray-100">
+                        <form action="https://formspree.io/f/mqakozqv" method="POST" enctype="multipart/form-data">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                <div>
+                                    <label class="block text-sm font-semibold mb-2">Full Name</label>
+                                    <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-semibold mb-2">Work Email</label>
+                                    <input type="email" name="email" required class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none">
+                                </div>
+                            </div>
 
-                <!-- Form -->
-                <div class="md:w-1/2 p-12">
-                    <form action="https://formspree.io/f/mgojkeel" method="POST">
-                        <div class="mb-6">
-                            <label class="block text-sm font-bold mb-2">Full Name</label>
-                            <input type="text" name="name" required class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
-                        </div>
-                        <div class="mb-6">
-                            <label class="block text-sm font-bold mb-2">Email Address</label>
-                            <input type="email" name="_replyto" required class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
-                        </div>
-                        <div class="mb-6">
-                            <label class="block text-sm font-bold mb-2">Message & Project Details</label>
-                            <textarea name="message" rows="4" required class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" placeholder="Please describe your project (Material, Quantity, Tolerance)..."></textarea>
-                        </div>
-                        <button type="submit" class="w-full bg-blue-800 text-white font-bold py-4 rounded-lg hover:bg-blue-700 transition shadow-lg">
-                            Send Inquiry
-                        </button>
-                    </form>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                <div>
+                                    <label class="block text-sm font-semibold mb-2">Company Name</label>
+                                    <input type="text" name="company" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-semibold mb-2">Service Needed</label>
+                                    <select name="service" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none">
+                                        <option>CNC Machining</option>
+                                        <option>3D Printing</option>
+                                        <option>Sheet Metal Fabrication</option>
+                                        <option>Injection Molding</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="mb-6">
+                                <label class="block text-sm font-semibold mb-2">Message & Specifications</label>
+                                <textarea name="message" rows="4" placeholder="Describe your project, material requirements, and quantities..." class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none"></textarea>
+                            </div>
+
+                            <div class="mb-8">
+                                <label class="block text-sm font-semibold mb-2">Upload CAD Files (Optional)</label>
+                                <div class="border-2 border-dashed border-gray-200 rounded-lg p-8 text-center hover:border-blue-600 transition cursor-pointer">
+                                    <i class="fas fa-cloud-upload-alt text-3xl text-gray-400 mb-2"></i>
+                                    <p class="text-sm text-gray-500">Drag & drop or click to upload .step, .stp, .igs, or .pdf files</p>
+                                    <input type="file" name="attachment" class="hidden">
+                                </div>
+                            </div>
+
+                            <button type="submit" class="w-full bg-blue-600 text-white font-bold py-4 rounded-lg hover:bg-blue-700 transition shadow-lg shadow-blue-200">
+                                Send Request <i class="fas fa-paper-plane ml-2"></i>
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6 text-center text-gray-500 text-sm">
+            &copy; 2026 Xiamen Mingxin Precision Machinery Co., Ltd. All rights reserved.
+        </div>
+    </footer>
+
 </body>
 </html>
-
