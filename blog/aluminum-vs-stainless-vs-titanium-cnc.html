@@ -11,6 +11,33 @@
     <link rel="canonical" href="https://mingxinltd.com/blog/aluminum-vs-stainless-vs-titanium-cnc.html">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/jpeg" href="https://sc02.alicdn.com/kf/H3b9954de5d114bdbae763ef1255dbc40r.jpg">
+
+    <meta property="og:image" content="https://sc02.alicdn.com/kf/H4bded116e6614bf89568c5f6b288d28fn.jpg">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Aluminum vs Stainless Steel vs Titanium for CNC Parts",
+        "description": "A practical material selection guide for CNC machined parts: how aluminum, stainless steel, titanium and engineering plastics compare on machinability, strength, corrosion and cost.",
+        "datePublished": "2026-10-28",
+        "dateModified": "2026-10-28",
+        "mainEntityOfPage": "https://mingxinltd.com/blog/aluminum-vs-stainless-vs-titanium-cnc.html",
+        "author": {
+            "@type": "Organization",
+            "name": "Xiamen Mingxin Precision Machinery Co., Ltd."
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Xiamen Mingxin Precision Machinery Co., Ltd.",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://sc02.alicdn.com/kf/H3b9954de5d114bdbae763ef1255dbc40r.jpg"
+            }
+        },
+        "image": "https://sc02.alicdn.com/kf/H4bded116e6614bf89568c5f6b288d28fn.jpg"
+    }
+    </script>
 </head>
 <body class="bg-white text-gray-900">
 
@@ -27,7 +54,38 @@
                 <a href="../contact.html" class="hover:text-blue-600 transition">Contact</a>
             </div>
             <a href="../contact.html" class="bg-blue-600 text-white px-6 py-2 rounded-full font-bold hover:bg-blue-700 transition">Get a Quote</a>
+        
+            <button type="button" id="mobileMenuBtn" class="md:hidden ml-3 text-2xl text-gray-700" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
+        <div id="mobileMenu" class="hidden md:hidden border-t border-gray-100 bg-white">
+            <div class="container mx-auto px-6 py-4 space-y-1">
+                <a href="../index.html" class="block py-2 font-semibold text-gray-700 hover:text-blue-600">Home</a>
+                <a href="../products.html" class="block py-2 font-semibold text-gray-700 hover:text-blue-600">Products</a>
+                <a href="../precision-cnc-machining.html" class="block py-2 font-semibold text-gray-700 hover:text-blue-600">Precision CNC Machining</a>
+                <a href="../3d-printing-services.html" class="block py-2 font-semibold text-gray-700 hover:text-blue-600">3D Printing</a>
+                <a href="../blog/index.html" class="block py-2 font-semibold text-gray-700 hover:text-blue-600">Articles</a>
+                <a href="../about.html" class="block py-2 font-semibold text-gray-700 hover:text-blue-600">About Us</a>
+                <a href="../contact.html" class="block py-2 font-semibold text-gray-700 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+        <script>
+        (function () {
+            var btn = document.getElementById('mobileMenuBtn');
+            var menu = document.getElementById('mobileMenu');
+            if (!btn || !menu) return;
+            btn.addEventListener('click', function () {
+                var willOpen = menu.classList.contains('hidden');
+                menu.classList.toggle('hidden', !willOpen);
+                btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+                btn.innerHTML = willOpen
+                    ? '<i class="fas fa-times"></i>'
+                    : '<i class="fas fa-bars"></i>';
+            });
+        })();
+        </script>
+        
     </header>
 
     <article class="container mx-auto px-6 py-16 max-w-3xl">
