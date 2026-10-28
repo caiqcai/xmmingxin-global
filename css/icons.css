@@ -1,0 +1,33 @@
+@font-face{font-family:"FA Solid";src:url("/fonts/fa-solid-subset.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap}
+@font-face{font-family:"FA Brands";src:url("/fonts/fa-brands-subset.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+.fas,.fa-solid{font-family:"FA Solid";font-weight:900}
+.fab,.fa-brands{font-family:"FA Brands";font-weight:400}
+.fas,.fab,.fa-solid,.fa-brands{display:inline-block;font-style:normal;font-variant:normal;line-height:1;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.fa-arrow-right:before{content:"\f061"}
+.fa-award:before{content:"\f559"}
+.fa-bars:before{content:"\f0c9"}
+.fa-bolt:before{content:"\f0e7"}
+.fa-book-open:before{content:"\f518"}
+.fa-car:before{content:"\f1b9"}
+.fa-certificate:before{content:"\f0a3"}
+.fa-check:before{content:"\f00c"}
+.fa-check-circle:before{content:"\f058"}
+.fa-check-double:before{content:"\f560"}
+.fa-chevron-down:before{content:"\f078"}
+.fa-cloud-upload-alt:before{content:"\f0ee"}
+.fa-cog:before{content:"\f013"}
+.fa-cube:before{content:"\f1b2"}
+.fa-envelope:before{content:"\f0e0"}
+.fa-industry:before{content:"\f275"}
+.fa-layer-group:before{content:"\f5fd"}
+.fa-map-marker-alt:before{content:"\f3c5"}
+.fa-microchip:before{content:"\f2db"}
+.fa-microscope:before{content:"\f610"}
+.fa-paper-plane:before{content:"\f1d8"}
+.fa-phone:before{content:"\f095"}
+.fa-robot:before{content:"\f544"}
+.fa-ruler-combined:before{content:"\f546"}
+.fa-stethoscope:before{content:"\f0f1"}
+.fa-temperature-low:before{content:"\f76b"}
+.fa-times:before{content:"\f00d"}
+.fa-whatsapp:before{content:"\f232"}
